@@ -1,0 +1,1 @@
+<textarea name="text[<?=$element_id?>]" id="text_<?=$element_id?>" class="ckeditor"><?=$text?></textarea>

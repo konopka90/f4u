@@ -1,0 +1,1160 @@
+-----------------2013-12-29 00:31:47------------------
+status	=>	OK
+control	=>	52bf5f22b3097
+amount	=>	600.00
+id	=>	64308
+transaction_id	=>	64308-M12
+t_id	=>	64308-M12
+t_date	=>	2013-12-29 00:31:52
+o_id	=>	64308-K14
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52bf5f22b3097
+version	=>	1.4
+orginal_amount	=>	600.00 PLN
+channel	=>	1
+md5	=>	14de9f4e503a9fb0605c583fffec183a
+dotpay_md5 => 
+
+
+
+-----------------2013-12-29 00:36:00------------------
+status	=>	OK
+control	=>	52bf5dec7492d
+amount	=>	280.00
+id	=>	64308
+transaction_id	=>	64308-M13
+t_id	=>	64308-M13
+t_date	=>	2013-12-29 00:36:06
+o_id	=>	64308-K15
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52bf5dec7492d
+version	=>	1.4
+orginal_amount	=>	280.00 PLN
+channel	=>	1
+md5	=>	579d25c4c5fac333ac4b7c9f542065b6
+dotpay_md5 => 
+
+
+
+-----------------2014-01-02 17:32:49------------------
+status	=>	OK
+control	=>	52c59479d4100
+amount	=>	1400.00
+id	=>	64308
+transaction_id	=>	64308-M14
+t_id	=>	64308-M14
+t_date	=>	2014-01-02 17:32:54
+o_id	=>	64308-K16
+email	=>	owoc666@gmail.com
+t_status	=>	2
+description	=>	52c59479d4100
+version	=>	1.4
+orginal_amount	=>	1400.00 PLN
+channel	=>	1
+md5	=>	ced51eaa4a604eaf980bbe66c8dc4152
+dotpay_md5 => 
+
+
+
+-----------------2014-01-03 18:16:35------------------
+status	=>	OK
+control	=>	52c6efc8b877a
+amount	=>	260.00
+id	=>	64308
+transaction_id	=>	64308-DT2
+t_id	=>	64308-DT2
+t_date	=>	2014-01-03 18:16:41
+o_id	=>	64308-DZ2
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	52c6efc8b877a
+version	=>	1.4
+orginal_amount	=>	260.00 PLN
+channel	=>	58
+md5	=>	60e9dea16de31b666d5661895ab0498f
+dotpay_md5 => 
+
+
+
+-----------------2014-01-05 09:11:13------------------
+status	=>	OK
+control	=>	52c912c152fc3
+amount	=>	1890.00
+id	=>	64308
+transaction_id	=>	64308-Z3
+t_id	=>	64308-Z3
+t_date	=>	2014-01-05 09:11:19
+o_id	=>	64308-APID3
+email	=>	htdent7@me.com
+t_status	=>	2
+description	=>	52c912c152fc3
+version	=>	1.4
+orginal_amount	=>	1890.00 PLN
+channel	=>	6
+md5	=>	c135c58541f617f33be6b08c52de644a
+dotpay_md5 => 
+
+
+
+-----------------2014-01-06 12:44:40------------------
+status	=>	OK
+control	=>	52ca96f82695b
+amount	=>	210.00
+id	=>	64308
+transaction_id	=>	64308-M15
+t_id	=>	64308-M15
+t_date	=>	2014-01-06 12:44:46
+o_id	=>	64308-K17
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52ca96f82695b
+version	=>	1.4
+orginal_amount	=>	210.00 PLN
+channel	=>	1
+md5	=>	33d11d46d20b6111f562842f984d5f8f
+dotpay_md5 => 
+
+
+
+-----------------2014-01-09 22:26:17------------------
+status	=>	OK
+control	=>	52cf134dd90b5
+amount	=>	280.00
+id	=>	64308
+transaction_id	=>	64308-M16
+t_id	=>	64308-M16
+t_date	=>	2014-01-09 22:26:24
+o_id	=>	64308-K18
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	52cf134dd90b5
+version	=>	1.4
+orginal_amount	=>	280.00 PLN
+channel	=>	1
+md5	=>	c926198c495dfe2afdeb4368ef1c9877
+dotpay_md5 => 
+
+
+
+-----------------2014-01-10 00:38:25------------------
+status	=>	OK
+control	=>	52cf32a5500cb
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M17
+t_id	=>	64308-M17
+t_date	=>	2014-01-10 00:38:32
+o_id	=>	64308-K19
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52cf32a5500cb
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	94b51388121bd3f8ffc01bdbd64f787b
+dotpay_md5 => 
+
+
+
+-----------------2014-01-10 00:39:21------------------
+status	=>	OK
+control	=>	52cf32f3420c3
+amount	=>	280.00
+id	=>	64308
+transaction_id	=>	64308-M18
+t_id	=>	64308-M18
+t_date	=>	2014-01-10 00:39:28
+o_id	=>	64308-K20
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52cf32f3420c3
+version	=>	1.4
+orginal_amount	=>	280.00 PLN
+channel	=>	1
+md5	=>	4b6a33e8091f9f02a0a6cd2d81f9aa11
+dotpay_md5 => 
+
+
+
+-----------------2014-01-12 18:38:16------------------
+status	=>	OK
+control	=>	52d2d00528ccc
+amount	=>	195.00
+id	=>	64308
+transaction_id	=>	64308-PK6
+t_id	=>	64308-PK6
+t_date	=>	2014-01-12 18:38:24
+o_id	=>	64308-PKZ7
+email	=>	lukasz@lasecki.pl
+t_status	=>	2
+description	=>	52d2d00528ccc
+version	=>	1.4
+orginal_amount	=>	195.00 PLN
+channel	=>	36
+md5	=>	621d6fe84fae9664e01486cae778ddab
+dotpay_md5 => 
+
+
+
+-----------------2014-01-15 22:10:59------------------
+status	=>	OK
+control	=>	52d6f838e3ab5
+amount	=>	350.00
+id	=>	64308
+transaction_id	=>	64308-DT3
+t_id	=>	64308-DT3
+t_date	=>	2014-01-15 22:11:07
+o_id	=>	64308-DZ3
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	52d6f838e3ab5
+version	=>	1.4
+orginal_amount	=>	350.00 PLN
+channel	=>	58
+md5	=>	0a54d27f8d99c00d7d5e2463295bd7d6
+dotpay_md5 => 
+
+
+
+-----------------2014-01-16 22:40:19------------------
+status	=>	OK
+control	=>	52d851787ee8a
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M19
+t_id	=>	64308-M19
+t_date	=>	2014-01-16 22:40:27
+o_id	=>	64308-K21
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52d851787ee8a
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	5d50913fae19aea2a47209334e57a8a0
+dotpay_md5 => 
+
+
+
+-----------------2014-01-16 22:55:39------------------
+status	=>	OK
+control	=>	52d854d45200a
+amount	=>	280.00
+id	=>	64308
+transaction_id	=>	64308-M20
+t_id	=>	64308-M20
+t_date	=>	2014-01-16 22:55:47
+o_id	=>	64308-K22
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52d854d45200a
+version	=>	1.4
+orginal_amount	=>	280.00 PLN
+channel	=>	1
+md5	=>	1d55c3596efdb7a05299edfbbe5a3656
+dotpay_md5 => 
+
+
+
+-----------------2014-01-18 15:50:55------------------
+status	=>	OK
+control	=>	52da945dc96ad
+amount	=>	600.00
+id	=>	64308
+transaction_id	=>	64308-ALT2
+t_id	=>	64308-ALT2
+t_date	=>	2014-01-18 15:51:03
+o_id	=>	64308-ALTZ10
+email	=>	robert@zeropark.com
+t_status	=>	2
+description	=>	52da945dc96ad
+version	=>	1.4
+orginal_amount	=>	600.00 PLN
+channel	=>	45
+md5	=>	23aa747152b182e7bdc6bd3592bec270
+dotpay_md5 => 
+
+
+
+-----------------2014-01-19 21:00:49------------------
+status	=>	OK
+control	=>	52dc2dda8628d
+amount	=>	455.00
+id	=>	64308
+transaction_id	=>	64308-PK7
+t_id	=>	64308-PK7
+t_date	=>	2014-01-19 21:00:57
+o_id	=>	64308-PKZ8
+email	=>	lukasz@lasecki.pl
+t_status	=>	2
+description	=>	52dc2dda8628d
+version	=>	1.4
+orginal_amount	=>	455.00 PLN
+channel	=>	36
+md5	=>	75a9b47b91f20bdcfbd549c167aa3e0b
+dotpay_md5 => 
+
+
+
+-----------------2014-01-23 12:12:51------------------
+status	=>	OK
+control	=>	52dfdac406d93
+amount	=>	3075.00
+id	=>	64308
+transaction_id	=>	64308-A2
+t_id	=>	64308-A2
+t_date	=>	2014-01-23 12:13:00
+o_id	=>	64308-A9
+email	=>	marek@krakvet.pl
+t_status	=>	2
+description	=>	52dfdac406d93
+version	=>	1.4
+orginal_amount	=>	3075.00 PLN
+channel	=>	11
+md5	=>	0f29c00efb73688d7e75a133513972ff
+dotpay_md5 => 
+
+
+
+-----------------2014-01-23 23:45:13------------------
+status	=>	OK
+control	=>	52e19b3d34f74
+amount	=>	375.00
+id	=>	64308
+transaction_id	=>	64308-M21
+t_id	=>	64308-M21
+t_date	=>	2014-01-23 23:45:22
+o_id	=>	64308-K23
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52e19b3d34f74
+version	=>	1.4
+orginal_amount	=>	375.00 PLN
+channel	=>	1
+md5	=>	edf606106cfbeeffd58a927ad93753f8
+dotpay_md5 => 
+
+
+
+-----------------2014-01-23 23:55:32------------------
+status	=>	OK
+control	=>	52e19dba2b1bc
+amount	=>	210.00
+id	=>	64308
+transaction_id	=>	64308-M22
+t_id	=>	64308-M22
+t_date	=>	2014-01-23 23:55:42
+o_id	=>	64308-K24
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52e19dba2b1bc
+version	=>	1.4
+orginal_amount	=>	210.00 PLN
+channel	=>	1
+md5	=>	c5145f6bc096c842f9170f243df3f16b
+dotpay_md5 => 
+
+
+
+-----------------2014-01-24 16:40:54------------------
+status	=>	OK
+control	=>	52e2893196866
+amount	=>	225.00
+id	=>	64308
+transaction_id	=>	64308-I2
+t_id	=>	64308-I2
+t_date	=>	2014-01-24 16:41:03
+o_id	=>	64308-INT2
+email	=>	joannabodzioch.landotech@gmail.com
+t_status	=>	2
+description	=>	52e2893196866
+version	=>	1.4
+orginal_amount	=>	225.00 PLN
+channel	=>	2
+md5	=>	befc87e97052665d24350e5cebb58323
+dotpay_md5 => 
+
+
+
+-----------------2014-01-24 17:02:18------------------
+status	=>	OK
+control	=>	52e28e4dedaeb
+amount	=>	225.00
+id	=>	64308
+transaction_id	=>	64308-I3
+t_id	=>	64308-I3
+t_date	=>	2014-01-24 17:02:27
+o_id	=>	64308-INT3
+email	=>	jakub.rutka@gmail.com
+t_status	=>	2
+description	=>	52e28e4dedaeb
+version	=>	1.4
+orginal_amount	=>	225.00 PLN
+channel	=>	2
+md5	=>	3a32a285b4878df2cdba8fdddc34d0fb
+dotpay_md5 => 
+
+
+
+-----------------2014-01-24 18:54:24------------------
+status	=>	OK
+control	=>	52e2a8522cef3
+amount	=>	375.00
+id	=>	64308
+transaction_id	=>	64308-I4
+t_id	=>	64308-I4
+t_date	=>	2014-01-24 18:54:32
+o_id	=>	64308-INT4
+email	=>	tomasz.stoma@onet.eu
+t_status	=>	2
+description	=>	52e2a8522cef3
+version	=>	1.4
+orginal_amount	=>	375.00 PLN
+channel	=>	2
+md5	=>	7981f1124b304f6a29a02e9909c6c5d1
+dotpay_md5 => 
+
+
+
+-----------------2014-01-31 16:10:57------------------
+status	=>	OK
+control	=>	52ebbccbee3b4
+amount	=>	1425.00
+id	=>	64308
+transaction_id	=>	64308-ALT3
+t_id	=>	64308-ALT3
+t_date	=>	2014-01-31 16:11:06
+o_id	=>	64308-ALTZ11
+email	=>	robert@zeropark.com
+t_status	=>	2
+description	=>	52ebbccbee3b4
+version	=>	1.4
+orginal_amount	=>	1425.00 PLN
+channel	=>	45
+md5	=>	ea1501334f46f577cc29d2fa83d11622
+dotpay_md5 => 
+
+
+
+-----------------2014-01-31 19:38:48------------------
+status	=>	OK
+control	=>	52ebed85637ab
+amount	=>	280.00
+id	=>	64308
+transaction_id	=>	64308-M23
+t_id	=>	64308-M23
+t_date	=>	2014-01-31 19:38:59
+o_id	=>	64308-K25
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52ebed85637ab
+version	=>	1.4
+orginal_amount	=>	280.00 PLN
+channel	=>	1
+md5	=>	8a41c9725189f80f3c86d8bfd91f2de9
+dotpay_md5 => 
+
+
+
+-----------------2014-01-31 19:53:06------------------
+status	=>	OK
+control	=>	52ebf0d821b47
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M24
+t_id	=>	64308-M24
+t_date	=>	2014-01-31 19:53:17
+o_id	=>	64308-K26
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52ebf0d821b47
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	50e9cc0affffef7ff7d164874c5047fb
+dotpay_md5 => 
+
+
+
+-----------------2014-02-05 00:02:44------------------
+status	=>	OK
+control	=>	52f1711546676
+amount	=>	210.00
+id	=>	64308
+transaction_id	=>	64308-M25
+t_id	=>	64308-M25
+t_date	=>	2014-02-05 00:02:55
+o_id	=>	64308-K27
+email	=>	slawomir.wojdyla@gmail.com
+t_status	=>	2
+description	=>	52f1711546676
+version	=>	1.4
+orginal_amount	=>	210.00 PLN
+channel	=>	1
+md5	=>	31a547bac1ace7c252ba3c879c61ba0a
+dotpay_md5 => 
+
+
+
+-----------------2014-02-07 00:04:50------------------
+status	=>	OK
+control	=>	52f414ad65055
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M26
+t_id	=>	64308-M26
+t_date	=>	2014-02-07 00:05:02
+o_id	=>	64308-K28
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52f414ad65055
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	2315b99f2acd5020188b881a07feb58e
+dotpay_md5 => 
+
+
+
+-----------------2014-02-11 07:35:10------------------
+status	=>	OK
+control	=>	52f9c44c2b9bc
+amount	=>	845.00
+id	=>	64308
+transaction_id	=>	64308-ALT4
+t_id	=>	64308-ALT4
+t_date	=>	2014-02-11 07:35:22
+o_id	=>	64308-ALTZ12
+email	=>	kstaniec@poczta.fm
+t_status	=>	2
+description	=>	52f9c44c2b9bc
+version	=>	1.4
+orginal_amount	=>	845.00 PLN
+channel	=>	45
+md5	=>	f74657b514fc08c2b0d91f847644c734
+dotpay_md5 => 
+
+
+
+-----------------2014-02-14 00:27:11------------------
+status	=>	OK
+control	=>	52fd549ea97a9
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M27
+t_id	=>	64308-M27
+t_date	=>	2014-02-14 00:27:24
+o_id	=>	64308-K29
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	52fd549ea97a9
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	7de0ea38f16741cd874c8739981cde87
+dotpay_md5 => 
+
+
+
+-----------------2014-02-16 22:12:26------------------
+status	=>	OK
+control	=>	5301291c20f17
+amount	=>	210.00
+id	=>	64308
+transaction_id	=>	64308-DT4
+t_id	=>	64308-DT4
+t_date	=>	2014-02-16 22:12:39
+o_id	=>	64308-DZ4
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	5301291c20f17
+version	=>	1.4
+orginal_amount	=>	210.00 PLN
+channel	=>	58
+md5	=>	3862e29c3036286099f430da06df9a13
+dotpay_md5 => 
+
+
+
+-----------------2014-02-19 22:20:22------------------
+status	=>	OK
+control	=>	53051f2b4d1d5
+amount	=>	350.00
+id	=>	64308
+transaction_id	=>	64308-DT5
+t_id	=>	64308-DT5
+t_date	=>	2014-02-19 22:20:35
+o_id	=>	64308-DZ5
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	53051f2b4d1d5
+version	=>	1.4
+orginal_amount	=>	350.00 PLN
+channel	=>	58
+md5	=>	b0781a07116df29c204f7be590a0e687
+dotpay_md5 => 
+
+
+
+-----------------2014-02-21 11:46:32------------------
+status	=>	OK
+control	=>	53072e1081b68
+amount	=>	375.00
+id	=>	64308
+transaction_id	=>	64308-M28
+t_id	=>	64308-M28
+t_date	=>	2014-02-21 11:46:45
+o_id	=>	64308-K30
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	53072e1081b68
+version	=>	1.4
+orginal_amount	=>	375.00 PLN
+channel	=>	1
+md5	=>	d37c327ac54123ed2f6e1f38c8b03314
+dotpay_md5 => 
+
+
+
+-----------------2014-02-26 17:22:17------------------
+status	=>	OK
+control	=>	530e140ff1b93
+amount	=>	700.00
+id	=>	64308
+transaction_id	=>	64308-DT6
+t_id	=>	64308-DT6
+t_date	=>	2014-02-26 17:22:31
+o_id	=>	64308-DZ6
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	530e140ff1b93
+version	=>	1.4
+orginal_amount	=>	700.00 PLN
+channel	=>	58
+md5	=>	a775d857afb22e81e3357132c4572ed3
+dotpay_md5 => 
+
+
+
+-----------------2014-02-28 15:42:05------------------
+status	=>	OK
+control	=>	5310a010b3e78
+amount	=>	450.00
+id	=>	64308
+transaction_id	=>	64308-M29
+t_id	=>	64308-M29
+t_date	=>	2014-02-28 15:42:20
+o_id	=>	64308-K31
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	5310a010b3e78
+version	=>	1.4
+orginal_amount	=>	450.00 PLN
+channel	=>	1
+md5	=>	97de7ada6a7702f4cbd258834fac7f98
+dotpay_md5 => 
+
+
+
+-----------------2014-03-05 17:11:43------------------
+status	=>	OK
+control	=>	53174c5de0e8d
+amount	=>	1125.00
+id	=>	64308
+transaction_id	=>	64308-M30
+t_id	=>	64308-M30
+t_date	=>	2014-03-05 17:11:58
+o_id	=>	64308-K32
+email	=>	mwwojcik@icloud.com
+t_status	=>	2
+description	=>	53174c5de0e8d
+version	=>	1.4
+orginal_amount	=>	1125.00 PLN
+channel	=>	1
+md5	=>	510769ede9dc15eb9f363acb50c805ec
+dotpay_md5 => 
+
+
+
+-----------------2014-03-07 11:47:44------------------
+status	=>	OK
+control	=>	5318f6a717cf0
+amount	=>	438.00
+id	=>	64308
+transaction_id	=>	64308-M31
+t_id	=>	64308-M31
+t_date	=>	2014-03-07 11:48:00
+o_id	=>	64308-K33
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	5318f6a717cf0
+version	=>	1.4
+orginal_amount	=>	438.00 PLN
+channel	=>	1
+md5	=>	7da29a5aced6181081749e030f6b1095
+dotpay_md5 => 
+
+
+
+-----------------2014-03-16 22:26:43------------------
+status	=>	OK
+control	=>	532616dd9fe70
+amount	=>	292.00
+id	=>	64308
+transaction_id	=>	64308-M32
+t_id	=>	64308-M32
+t_date	=>	2014-03-16 22:27:00
+o_id	=>	64308-K34
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	532616dd9fe70
+version	=>	1.4
+orginal_amount	=>	292.00 PLN
+channel	=>	1
+md5	=>	84fc7f0311c9b8755b06c74c73cc01d4
+dotpay_md5 => 
+
+
+
+-----------------2014-03-17 20:58:36------------------
+status	=>	OK
+control	=>	5327535223598
+amount	=>	480.00
+id	=>	64308
+transaction_id	=>	64308-DT7
+t_id	=>	64308-DT7
+t_date	=>	2014-03-17 20:58:53
+o_id	=>	64308-DZ7
+email	=>	margarita@gemini.net.pl
+t_status	=>	2
+description	=>	5327535223598
+version	=>	1.4
+orginal_amount	=>	480.00 PLN
+channel	=>	58
+md5	=>	e574a91c03d7d7d0ad9fed222a9a8b26
+dotpay_md5 => 
+
+
+
+-----------------2014-03-21 19:55:57------------------
+status	=>	OK
+control	=>	532c8a6c3dbd0
+amount	=>	441.00
+id	=>	64308
+transaction_id	=>	64308-M33
+t_id	=>	64308-M33
+t_date	=>	2014-03-21 19:56:15
+o_id	=>	64308-K36
+email	=>	dominika_kow@wp.pl
+t_status	=>	2
+description	=>	532c8a6c3dbd0
+version	=>	1.4
+orginal_amount	=>	441.00 PLN
+channel	=>	1
+md5	=>	ecb3b10de7559ac2c89af1faedb124ba
+dotpay_md5 => 
+
+
+
+-----------------2014-03-21 20:09:43------------------
+status	=>	OK
+control	=>	532c8e1813ad6
+amount	=>	270.00
+id	=>	64308
+transaction_id	=>	64308-M34
+t_id	=>	64308-M34
+t_date	=>	2014-03-21 20:10:01
+o_id	=>	64308-K37
+email	=>	dominika_kow@wp.pl
+t_status	=>	2
+description	=>	532c8e1813ad6
+version	=>	1.4
+orginal_amount	=>	270.00 PLN
+channel	=>	1
+md5	=>	ef6e596051dd58636a9218538f6bc1d0
+dotpay_md5 => 
+
+
+
+-----------------2014-03-21 21:06:31------------------
+status	=>	OK
+control	=>	532c9b8ea2d1a
+amount	=>	365.00
+id	=>	64308
+transaction_id	=>	64308-M35
+t_id	=>	64308-M35
+t_date	=>	2014-03-21 21:06:49
+o_id	=>	64308-K38
+email	=>	maciej.kasperkiewicz@op.pl
+t_status	=>	2
+description	=>	532c9b8ea2d1a
+version	=>	1.4
+orginal_amount	=>	365.00 PLN
+channel	=>	1
+md5	=>	c804821566b9cc0883ba76f522e00d56
+dotpay_md5 => 
+
+
+
+-----------------2014-04-01 23:34:00------------------
+status	=>	OK
+control	=>	533b3057b0e05
+amount	=>	147.00
+id	=>	64308
+transaction_id	=>	64308-M36
+t_id	=>	64308-M36
+t_date	=>	2014-04-01 23:34:20
+o_id	=>	64308-K39
+email	=>	dobrochnajanowska@gmail.com
+t_status	=>	2
+description	=>	533b3057b0e05
+version	=>	1.4
+orginal_amount	=>	147.00 PLN
+channel	=>	1
+md5	=>	4c14a158fa06bb07fcdc19620edf41e2
+dotpay_md5 => 
+
+
+
+-----------------2014-04-02 12:05:25------------------
+status	=>	OK
+control	=>	533be0a320821
+amount	=>	375.00
+id	=>	64308
+transaction_id	=>	64308-M37
+t_id	=>	64308-M37
+t_date	=>	2014-04-02 12:05:44
+o_id	=>	64308-K40
+email	=>	mwwojcik@icloud.com
+t_status	=>	2
+description	=>	533be0a320821
+version	=>	1.4
+orginal_amount	=>	375.00 PLN
+channel	=>	1
+md5	=>	02059f0de653c382eab3fbe95f730e5b
+dotpay_md5 => 
+
+
+
+-----------------2014-04-02 21:28:40------------------
+status	=>	OK
+control	=>	533c63d5dbaae
+amount	=>	162.00
+id	=>	64308
+transaction_id	=>	64308-M38
+t_id	=>	64308-M38
+t_date	=>	2014-04-02 21:29:00
+o_id	=>	64308-K41
+email	=>	dobrochna-janowska@wp.pl
+t_status	=>	2
+description	=>	533c63d5dbaae
+version	=>	1.4
+orginal_amount	=>	162.00 PLN
+channel	=>	1
+md5	=>	e23990d5696f3368fdf015fbcbfe372b
+dotpay_md5 => 
+
+
+
+-----------------2014-04-04 16:34:14------------------
+status	=>	OK
+control	=>	53399bdf9b478
+amount	=>	270.00
+id	=>	64308
+transaction_id	=>	64308-A3
+t_id	=>	64308-A3
+t_date	=>	2014-04-04 16:34:33
+o_id	=>	64308-A10
+email	=>	wanna1980@wp.pl
+t_status	=>	2
+description	=>	53399bdf9b478
+version	=>	1.4
+orginal_amount	=>	270.00 PLN
+channel	=>	11
+md5	=>	0b16ac5c5cc55e9c0c690fdd78114735
+dotpay_md5 => 
+
+
+
+-----------------2014-04-24 14:09:06------------------
+status	=>	OK
+control	=>	5358fd8dbeaf1
+amount	=>	476.00
+id	=>	64308
+transaction_id	=>	64308-PK8
+t_id	=>	64308-PK8
+t_date	=>	2014-04-24 14:09:28
+o_id	=>	64308-PKZ9
+email	=>	martolina14@o2.pl
+t_status	=>	2
+description	=>	5358fd8dbeaf1
+version	=>	1.4
+orginal_amount	=>	476.00 PLN
+channel	=>	36
+md5	=>	172dd833bd1a682902ca40a11769f981
+dotpay_md5 => 
+
+
+
+-----------------2014-04-26 14:15:19------------------
+status	=>	OK
+control	=>	535b81b8886c6
+amount	=>	910.00
+id	=>	64308
+transaction_id	=>	64308-GP7
+t_id	=>	64308-GP7
+t_date	=>	2014-04-26 14:15:42
+o_id	=>	64308-GPZ8
+email	=>	elwirabugajska@gmail.com
+t_status	=>	2
+description	=>	535b81b8886c6
+version	=>	1.4
+orginal_amount	=>	910.00 PLN
+channel	=>	38
+md5	=>	09b8a50dfb6ef618eac9dfd1da96334e
+dotpay_md5 => 
+
+
+
+-----------------2014-04-30 12:33:32------------------
+status	=>	OK
+control	=>	5360d1380336a
+amount	=>	1500.00
+id	=>	64308
+transaction_id	=>	64308-M39
+t_id	=>	64308-M39
+t_date	=>	2014-04-30 12:33:55
+o_id	=>	64308-K42
+email	=>	mwwojcik@icloud.com
+t_status	=>	2
+description	=>	5360d1380336a
+version	=>	1.4
+orginal_amount	=>	1500.00 PLN
+channel	=>	1
+md5	=>	9e0a8889368696df3785401dae17a53c
+dotpay_md5 => 
+
+
+
+-----------------2014-05-04 11:16:37------------------
+status	=>	OK
+control	=>	5366052666f2b
+amount	=>	65.00
+id	=>	64308
+transaction_id	=>	64308-I5
+t_id	=>	64308-I5
+t_date	=>	2014-05-04 11:17:02
+o_id	=>	64308-INT5
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	5366052666f2b
+version	=>	1.4
+orginal_amount	=>	65.00 PLN
+channel	=>	2
+md5	=>	1f6eee9f0b836b8156b5864e442d2576
+dotpay_md5 => 
+
+
+
+-----------------2014-05-06 21:22:26------------------
+status	=>	OK
+control	=>	53693624771b5
+amount	=>	980.00
+id	=>	64308
+transaction_id	=>	64308-I6
+t_id	=>	64308-I6
+t_date	=>	2014-05-06 21:22:25
+o_id	=>	64308-INT6
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	53693624771b5
+version	=>	1.4
+orginal_amount	=>	980.00 PLN
+channel	=>	2
+md5	=>	13576d38b9b3b84ac46c2097812f04b3
+dotpay_md5 => 
+
+
+
+-----------------2014-05-22 19:45:43------------------
+status	=>	OK
+control	=>	537e377b36628
+amount	=>	1470.00
+id	=>	64308
+transaction_id	=>	64308-I7
+t_id	=>	64308-I7
+t_date	=>	2014-05-22 19:45:43
+o_id	=>	64308-INT7
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	537e377b36628
+version	=>	1.4
+orginal_amount	=>	1470.00 PLN
+channel	=>	2
+md5	=>	5e6d5d591883fde97186f20120ae6729
+dotpay_md5 => 
+
+
+
+-----------------2014-06-16 14:47:27------------------
+status	=>	OK
+control	=>	539ee684e93d3
+amount	=>	1725.00
+id	=>	64308
+transaction_id	=>	64308-I8
+t_id	=>	64308-I8
+t_date	=>	2014-06-16 14:47:27
+o_id	=>	64308-INT8
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	539ee684e93d3
+version	=>	1.4
+orginal_amount	=>	1725.00 PLN
+channel	=>	2
+md5	=>	bf6edac117b53706485d450116cee8f2
+dotpay_md5 => 
+
+
+
+-----------------2014-06-24 23:35:42------------------
+status	=>	OK
+control	=>	53a9edfd4dd3c
+amount	=>	756.00
+id	=>	64308
+transaction_id	=>	64308-M40
+t_id	=>	64308-M40
+t_date	=>	2014-06-24 23:35:42
+o_id	=>	64308-K44
+email	=>	grabcia_nb@wp.pl
+t_status	=>	2
+description	=>	53a9edfd4dd3c
+version	=>	1.4
+orginal_amount	=>	756.00 PLN
+channel	=>	1
+md5	=>	209dfb1ac7bd9d156d4b5bcc2b0e9897
+dotpay_md5 => 
+
+
+
+-----------------2014-06-24 23:49:51------------------
+status	=>	OK
+control	=>	53a9f23dce528
+amount	=>	952.00
+id	=>	64308
+transaction_id	=>	64308-M41
+t_id	=>	64308-M41
+t_date	=>	2014-06-24 23:49:50
+o_id	=>	64308-K45
+email	=>	madaczek@gmail.com
+t_status	=>	2
+description	=>	53a9f23dce528
+version	=>	1.4
+orginal_amount	=>	952.00 PLN
+channel	=>	1
+md5	=>	62b52ae26572dc4c0b30ff2cde44e916
+dotpay_md5 => 
+
+
+
+-----------------2014-07-03 15:46:23------------------
+status	=>	OK
+control	=>	53b51cec1ac6c
+amount	=>	225.00
+id	=>	64308
+transaction_id	=>	64308-A4
+t_id	=>	64308-A4
+t_date	=>	2014-07-03 15:46:22
+o_id	=>	64308-A11
+email	=>	tomgorz@gmail.com
+t_status	=>	2
+description	=>	53b51cec1ac6c
+version	=>	1.4
+orginal_amount	=>	225.00 PLN
+channel	=>	11
+md5	=>	7cf6fb83f85fa01009eb496e47378427
+dotpay_md5 => 
+
+
+
+-----------------2014-07-14 19:19:56------------------
+status	=>	OK
+control	=>	53c410e4652bc
+amount	=>	75.00
+id	=>	64308
+transaction_id	=>	64308-I9
+t_id	=>	64308-I9
+t_date	=>	2014-07-14 19:19:55
+o_id	=>	64308-INT9
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	53c410e4652bc
+version	=>	1.4
+orginal_amount	=>	75.00 PLN
+channel	=>	2
+md5	=>	b231d76074c43441ad841a559bdbdb11
+dotpay_md5 => 
+
+
+
+-----------------2014-07-31 09:43:55------------------
+status	=>	OK
+control	=>	53d9f389d8c37
+amount	=>	1575.00
+id	=>	64308
+transaction_id	=>	64308-I10
+t_id	=>	64308-I10
+t_date	=>	2014-07-31 09:43:54
+o_id	=>	64308-INT10
+email	=>	maciej_dybala@gazeta.pl
+t_status	=>	2
+description	=>	53d9f389d8c37
+version	=>	1.4
+orginal_amount	=>	1575.00 PLN
+channel	=>	2
+md5	=>	a629698ceb9ac0cb1562c7e316b5a01d
+dotpay_md5 => 
+
+
+
+-----------------2014-08-14 10:29:35------------------
+status	=>	OK
+control	=>	53ec7301b3cc9
+amount	=>	189.00
+id	=>	64308
+transaction_id	=>	64308-B2
+t_id	=>	64308-B2
+t_date	=>	2014-08-14 10:29:36
+o_id	=>	64308-L4
+email	=>	dosmeda@gmail.com
+t_status	=>	2
+description	=>	53ec7301b3cc9
+version	=>	1.4
+orginal_amount	=>	189.00 PLN
+channel	=>	18
+md5	=>	15e96780fc47f175f8d21c110b4959ce
+dotpay_md5 => 
+
+
+
+-----------------2014-10-17 14:45:17------------------
+status	=>	OK
+control	=>	54410eae5c1f8
+amount	=>	196.00
+id	=>	64308
+transaction_id	=>	64308-AST2
+t_id	=>	64308-AST2
+t_date	=>	2014-10-17 14:45:16
+o_id	=>	64308-ASZ2
+email	=>	koperki1@tlen.pl
+t_status	=>	2
+description	=>	54410eae5c1f8
+version	=>	1.4
+orginal_amount	=>	196.00 PLN
+channel	=>	60
+md5	=>	15974a90a771da64c724f9f4893bd4fb
+dotpay_md5 => 
+
+
+

@@ -1,0 +1,1 @@
+<a class="popovera label label-primary pointer" title="Przedłuż pakiet" data-content="Możesz zamówić kolejne dostawy na dowolną ilość dni, które rozpoczną się po zakończeniu aktualnych." href="<?=base_url()?>cp/packets/prolong">{day}</a>
