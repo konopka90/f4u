@@ -109,27 +109,84 @@
 
 
 <? } else { ?>
-	<div class="row margin_t_10 margin_b_10" id="user_menu">
+	<div class="row margin_t_10 margin_b_20" id="user_menu">
  
     	<div class="col-md-12 text-right"> 
-
-        	<div class="btn-group">
-                <div class="btn-group">
-                    <a class="btn btn-success btn-lg" href="<?=base_url()?>user/login"><i class="fa fa-lock"></i> &nbsp; Zaloguj się</a>   
-                    <button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
-                        <span class="caret"></span>
-                    </button>                  
-                    <div class="dropdown-menu padding_20" style="width: 360px; margin-left: -50%">
-        
-                        <?=$this->load->view('user/login_form', array('popover' => false, 'redirect' => base64_encode(base_url() . 'cp')), true)?>
-        
+                <a href="http://facebook.com"><button class="my-facebook-icon"><i class="fa fa-facebook"></i></button></a>
+                <a class="btn btn-sm my-button" href="<?=base_url()?>user/login">&nbsp; Zaloguj się <i class="fa fa-lock my-glyph-size"></i></a>                                      
+				<button class="btn btn-sm my-button popovera_click" title="" data-placement="bottom" 
+                    data-content="<strong>Po prostu złoż zamówienie!</strong> Twoje konto zostanie założone automatycznie podczas składania zamówienia na catering lub konsultacje - hasło otrzymasz na podany do fakturowania adres email, który będzie Twoim loginem.">
+                    &nbsp; Załóż konto <span class="glyphicon glyphicon-star my-glyph-size" aria-hidden="true" ></span></button>  
+        </div>        
+	</div>
+        <nav class="navbar margin_b_0 " style="float:right;" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
                     
-                </div>
-				<a class="btn btn-primary btn-lg popovera_click" title="" data-placement="left" data-content="<strong>Po prostu złoż zamówienie!</strong> Twoje konto zostanie założone automatycznie podczas składania zamówienia na catering lub konsultacje - hasło otrzymasz na podany do fakturowania adres email, który będzie Twoim loginem."><i class="fa fa-sign-in"></i> &nbsp; Załóż konto</a>  
-        	</div>
-        </div>
-        
-	</div>
+                    
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                 
+                        <?	
+						if(!class_exists('M_Tree_Menu')) { 
+						
+							class M_Tree_Menu extends M_Tree { 
+                            
+                                function show_start_li($v, $array) {
+									
+									if($v['depth'] == 0) {
+										
+										$count = 0;
+										foreach($array as $p) {
+											if($p['depth'] == 0) {
+												$count++;
+											}
+										}
+	
+										echo '<li class="' . (($this->uri->segment(2) == reset(explode("/", $v['link'])))?'active':'') . ' '.$v['link'].'">';
+                                        
+									} else {
+									
+										echo '<li class="' . (($this->uri->segment(2) == reset(explode("/", $v['link'])))?'active':'') . ' ">';
+                                       
+										
+									}
+									
+                                }
+                                
+                                function show_start_ul($v, $array) {
+                                
+									if(	count($v['childs']) > 0 && $v['depth'] == 0	) {
+                                    	echo '<ul class="nav dropdown-menu" role="menu">';
+									} else {
+										echo '<ul class="nav">';	
+									}
+                        
+                                } 
+                                
+                                function show_end_li() { echo '</li>'; }
+                                function show_end_ul() { echo '</ul>'; }
+                            
+                            }
+						}
+                            
+							
+						$tree_menu = new M_Tree_Menu();
+                            
+                        ?>
+                        
+                        <ul class="nav navbar-nav" id="menu">
+                        	                            
+                            <? $tree_menu->show($menu_tree, '_elements/menu_row', false, $page); ?>
+
+                        </ul>
+               
+                    </div>
+                </nav>
 
 <? } ?>

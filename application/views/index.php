@@ -40,6 +40,7 @@
         <link rel="stylesheet" href="<?=base_url()?>js/uploadify/uploadify.css" />
         
         <link rel="stylesheet" href="<?=base_url()?>css/main.min.css?v=<?=time()?>">
+        <link rel="stylesheet" href="<?=base_url()?>css/main.css?v=<?=time()?>">
  
         <script src="<?=base_url()?>js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         
@@ -60,14 +61,13 @@
             <div class="container">
             	<div class="row">
 
-                    
-						<div class="col-md-5 padding_t_30 padding_b_30"> 
+						<div class="col-md-5 padding_t_0 padding_b_0"> 
                         	<a href="<?=base_url()?>">
-                            	<img src="<?=base_url()?>img/logo.png" height="107px">
+                            	<img src="<?=base_url()?>img/logo.png" height="167px">
                             </a>
                         </div>
                         
-                        <div class="col-md-7 padding_t_50 padding_b_20"> 
+                        <div class="col-md-7 padding_t_20 padding_b_20"> 
                         
                          	<?=$this->load->view('_elements/user_menu', array('user'=>$user, 'active_packet'=>$active_packet, 'closest_delivery' => $closest_delivery), true)?>
                             
@@ -78,87 +78,6 @@
     		</div>
 		</div>
         
-        <div class="" id="top_navigation">
-			
-            <div class="container">
-            
-                <nav class="navbar navbar-default margin_b_0" role="navigation">
-                   
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    
-                    
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                 
-                        <?	
-						if(!class_exists('M_Tree_Menu')) { 
-						
-							class M_Tree_Menu extends M_Tree { 
-                            
-                                function show_start_li($v, $array) {
-									
-									if($v['depth'] == 0) {
-										
-										$count = 2;
-										foreach($array as $p) {
-											if($p['depth'] == 0) {
-												$count++;
-											}
-										}
-	
-										echo '<li style="width:' . 100/$count . '%" class="' . (($this->uri->segment(2) == reset(explode("/", $v['link'])))?'active':'') . ' '.$v['link'].'">';
-									
-									} else {
-									
-										echo '<li class="' . (($this->uri->segment(2) == reset(explode("/", $v['link'])))?'active':'') . ' ">';
-										
-									}
-									
-                                }
-                                
-                                function show_start_ul($v, $array) {
-                                
-									if(	count($v['childs']) > 0 && $v['depth'] == 0	) {
-                                    	echo '<ul class="nav dropdown-menu" role="menu">';
-									} else {
-										echo '<ul class="nav">';	
-									}
-                        
-                                } 
-                                
-                                function show_end_li() { echo '</li>'; }
-                                function show_end_ul() { echo '</ul>'; }
-                            
-                            }
-						}
-                            
-							
-						$tree_menu = new M_Tree_Menu();
-                            
-                        ?>
-                        
-                        <ul class="nav navbar-nav" id="menu">
-                        	
-                            <li style="width:<?=100/(count($menu_tree)+2)?>%"><a href="<?=base_url()?>page">Home</a></li>
-                            
-                            <? $tree_menu->show($menu_tree, '_elements/menu_row', false, $page); ?>
-                            
-                            <li style="width:<?=100/(count($menu_tree)+2)?>%" class="konsultacje"><a href="<?=base_url()?>consultation">Konsultacje</a></li>
-                            
-                        </ul>
-               
-                    </div>
-                </nav>
-                
-            </div>
-
-        </div>
         
         <? if( $no_slider != true && !empty($page_banners[56])) { ?>
         	<? if($this->uri->segment(2) != 'oferta') { ?>
@@ -189,33 +108,12 @@
                                     <? if($b->desc) { ?>
                                         <div class="container">
                                             <div class="row clearfix">
-                                                <div class="col-md-12 clearfix">
+                                                <div class="my-col-a"></div>
+                                                <div class="my-col-b clearfix">
                                                     
-                                                    <div class="" style="margin-top: 335px;">
-                                                        <div class="pull-left" style="height: 90px">
-                                                            <img src="<?=base_url()?>img/banner_bg_left.png" />
-                                                        </div>
-                                                        
-                                                        <?
-                                                            
-                                                            if(strlen($b->desc) < 55) {
-                                                                $s = 'height: 90px; background: transparent url('.base_url().'img/banner_bg.png) repeat-x left top;white-space:nowrap;line-height: 90px;font-size: 36px;color: #442918;padding-left: 20px;padding-right: 20px';
-                                                            } elseif(strlen($b->desc) < 70) {
-                                                                $s = 'height: 90px; background: transparent url('.base_url().'img/banner_bg.png) repeat-x left top;white-space:nowrap;line-height: 90px;font-size: 30px;color: #442918;padding-left: 20px;padding-right: 20px';
-                                                            } else {
-                                                                $s = 'height: 90px; background: transparent url('.base_url().'img/banner_bg.png) repeat-x left top;line-height: 24px;padding-top: 21px;font-size: 26px;color: #442918;padding-left: 20px;padding-right: 20px;max-width: 75%';
-                                                            }
-                                                        
-                                                        ?>
-                                                        
-                                                        <div class="pull-left latobold" style=" <?=$s?>">
-                                                            <?=$b->desc?>
-                                                        </div>
-                                                        <div class="pull-left" style="height: 90px">
-                                                            <img src="<?=base_url()?>img/banner_bg_right.png" />
-                                                        </div>
-                                                    </div>
-                                                    
+                                                        <div class="pull-left " style=" <?=$s?>">
+                                                            <h1 class="my-banner-header"><?=$b->desc?></h1>
+                                                        </div>                                                 
                                                     
                                                 </div>
                                             </div>
@@ -278,34 +176,52 @@
             </div>
         </div>
         <?php */?>
-        <div id="footer" class="bg_line">
+        <div id="footer" class="margin_b_10 padding_t_20 ">
             <div class="container">
 	
                 <div class="row">
-                    <div class="col-md-12 text-right clearfix">
-                    
-                    	<a href="http://www.strefa-ruchu.com.pl/" target="_blank">
-                    		<img src="<?=base_url()?>img/partner_1.png" class="partner pull-left margin_r_20">
-                        </a>
+                   
                         
-                        <a href="http://72d.pl/" target="_blank">
-                        	<img src="<?=base_url()?>img/partner_3.png" class="partner pull-left">
-						</a>
-                        <?php /*?>
-                        
-                        <a href="http://flyartstudio.pl/" target="_blank">
-                        	<img src="<?=base_url()?>img/partner_2.png" class="partner pull-left">
-						</a>
-                        <?php */?>
-                        <a href="http://dream-factory.pl/" target="_blank">
-                        	<img src="<?=base_url()?>img/partner_4.png" class="partner pull-left">
-						</a>
-
-                        <div class="margin_t_50">
-							© <?=date("Y")?> Copyright by Fit4You. All rights reserved.
- 						</div>
-                        
-                    </div>
+                        <div class="col-sm-3 col-md-3"><img src="<?=base_url()?>img/logo_white.png" class="my-footer-logo"/></div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul>
+                                <li class="footer_heading">FitLab Catering</li>
+                                <li>ul. Bocheńska 5/LU3</li>
+                                <li>31-061 Kraków</li>
+                                <li><div class="divider" style="margin-bottom: 20px;"></div></li>
+                                <li><a href="<?=base_url()?>page/regulamin">Regulamin</a></li>
+                                <li><a href="">PressPack</a></li>
+                            </ul>
+                            <div></div>
+                            
+                            <div></div>
+                            <div></div>
+                            
+                        </div>
+                        <div class="col-sm-3 col-md-3" style="padding-left: 5%;">
+                            <ul>
+                                <li class="footer_heading">Mapa strony</li>
+                                <li><div class="divider"/></div></li>
+                                <li><a href="<?=base_url()?>page/o_nas">O nas</a></li>
+                                <li><a href="<?=base_url()?>page/fitlab">Oferta FitLab</a></li>
+                                <li><a href="<?=base_url()?>page/zamowienia">Zamówienia</a></li>
+                                <li><a href="<?=base_url()?>page/kontakt">Kontakt</a></li>
+                            </ul>                        
+                        </div>
+                        <div class="col-sm-3 col-md-3" style="text-align:right; padding-right: 100px;">
+                            <ul>
+                                <li><span class="footer_heading"><span class="my-copyright">©</span> FitLab Catering</span></li>
+                                <li><button class="btn btn-sm my-button my-footer-button popovera_click" title="" data-placement="top" 
+                    data-content='<span style="color: rgb(48,48,48);"><span style="font-weight: bold; color: rgb(48,48,48);">Po prostu złoż zamówienie!</b></span> Twoje konto zostanie założone automatycznie podczas składania zamówienia na catering lub konsultacje - hasło otrzymasz na podany do fakturowania adres email, który będzie Twoim loginem.</span>'>
+                    &nbsp; Załóż konto <span class="glyphicon glyphicon-star my-glyph-size" aria-hidden="true" ></span></button></li>
+                                <li><a class="btn btn-sm my-button my-footer-button" href="<?=base_url()?>user/login">&nbsp; Zaloguj się <i class="fa fa-lock my-glyph-size"></i></a></li>
+                                <li><div class="divider" style="float:right;"></div></li>
+                                <li><div class="my-footer-small" style="clear:both;">Made with Love<br/>by BlürbStudio</div></li>
+                            </ul>
+                            
+                        </div>
+                                                
+      
                 </div>
     
             </div>
@@ -337,6 +253,7 @@
 
         <script src="<?=base_url()?>js/plugins.js"></script>
         <script src="<?=base_url()?>js/main.js?v=<?=time()?>"></script>
+		<script src="<?=base_url()?>js/my-fitlab.js"></script>
              
         <? if(	file_exists('js/' . $this->router->fetch_class() . '_' . $this->router->fetch_method() . '.js')	) { ?>
         	<script src="<?=base_url()?>js/<?=$this->router->fetch_class()?>_<?=$this->router->fetch_method()?>.js?v=<?=time()?>"></script>
@@ -344,7 +261,7 @@
         <? $load_js = load_js($this->router->fetch_class() . '_' . $this->router->fetch_method()); ?>
         <? if(!empty($load_js)) { ?>
         	<? foreach($load_js as $i => $filename) { ?>
-				<? if(	file_exists('js/' . $filename . '.js')	) { ?>
+				<? if(	file_exists('js/' . $filename . '.js')	) {  ?>
                     <script src="<?=base_url()?>js/<?=$filename?>.js?v=<?=time()?>"></script>
                 <? } ?>
             <? } ?>

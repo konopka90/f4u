@@ -1576,14 +1576,14 @@
 			return viewMode;
 		},
 		headTemplate:     '<thead>' +
-							  '<tr>' +
+							  '<tr class="my-first-row">' +
 							  '<th class="prev"><i class="icon-arrow-left"/></th>' +
 							  '<th colspan="5" class="switch"></th>' +
 							  '<th class="next"><i class="icon-arrow-right"/></th>' +
 							  '</tr>' +
 			'</thead>',
 		headTemplateV3:   '<thead>' +
-							  '<tr>' +
+							  '<tr class="my-first-row">' +
 							  '<th class="prev"><i class="glyphicon glyphicon-arrow-left"></i> </th>' +
 							  '<th colspan="5" class="switch"></th>' +
 							  '<th class="next"><i class="glyphicon glyphicon-arrow-right"></i> </th>' +

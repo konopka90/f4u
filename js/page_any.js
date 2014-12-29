@@ -117,6 +117,7 @@ $(document).ready(function() {
 		}
 		if(mode == 'range' || mode == 'days' || mode == 'calendar') {
 			
+			
 			div_range_days_calendar_mode_show_hide();
 			
 		}
@@ -137,7 +138,7 @@ $(document).ready(function() {
 	-----------------------------------------------------*/
 		var daterangesettings = {
 									format: 'YYYY-MM-DD',
-									opens: 'left',
+									opens: 'right',
 									separator: ' do ',
 									ranges: {
 										//'Wczoraj': [moment().subtract('days', 1), moment().subtract('days', 1)],
@@ -172,7 +173,6 @@ $(document).ready(function() {
 				
 				days_selected_recalculate_days('range');
 				update_summary();
-	
 			}
 		);
 		
