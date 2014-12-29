@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "landing";
+$route['default_controller'] = "page";
 $route['404_override'] = '';
 $route['page/unsubscribe_newsletter/(:any)'] = 'page/unsubscribe_newsletter/$1';
 

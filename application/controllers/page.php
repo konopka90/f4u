@@ -8,7 +8,7 @@ class Page extends Root {
 	
 	public function index() {
 		
-		$this->data['template'] = $this->load->view('home', $this->data, true);
+		$this->data['template'] = $this->load->view('about_us', $this->data, true);
 		$this->load->view('index', $this->data);
 		
 	}
@@ -73,6 +73,15 @@ class Page extends Root {
 		} elseif($this->data['page']->template == 5) {	//CENNIK
 		
 			$this->pricing();
+		
+		} elseif($this->data['page']->template == 6) {	//O NAS
+		
+			$this->data['template'] = $this->load->view('about_us', $this->data, true);
+		
+		}
+		elseif($this->data['page']->template == 7) {	// FITLAB
+		
+			$this->data['template'] = $this->load->view('fitlab', $this->data, true);
 		
 		}
 		

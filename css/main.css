@@ -3,20 +3,725 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'GroteskBold'; /*a name to be used later*/
+    src:url('../fonts/NeuzeitGroteskTOT-Bol.eot'),
+        url('../fonts/NeuzeitGroteskTOT-Bol.otf'); /*URL to font*/
+         
+}
+
+@font-face {
+    font-family: 'Grotesk'; /*a name to be used later*/
+    src: url('../fonts/NeuzeitGroteskTOT-Reg.eot?#iefix') format('embedded-opentype') ,
+         url('../fonts/NeuzeitGroteskTOT-Reg.otf'); /*URL to font*/
+}
+
+.grotesk-bold { 
+   font-family: 'GroteskBold'; 
+}
+
+.grotesk { 
+   font-family: 'Grotesk'; 
+}
+
+body
+{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(249,249,249);
+    color: rgb(58,59,63);
+    font-family: 'Grotesk';
+    font-size: 18px;
+    line-height: 23px;
+}
+
+*{font-family: 'Grotesk'; color: rgb(48,48,48);}
+a{ color: rgb(48,48,48); }
+hr{ background-color: rgb(48,48,48); width: 100%; height: 4px; }
+p { margin:0; padding:0;}
+table * {	color: white; font-family: 'GroteskBold'; }
+ul, ul li { padding:0; margin:0; }
+input[type='text'], input[type='email'], input[type='password']
+{
+    border: 1px solid rgb(48,48,48);
+    border-radius: 0px;
+}
+h4 { font-family: 'GroteskBold'; }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.white { 
+	color :white;
+}
+.table { 
+	margin:0;
+}
+
+.checkbox { 
+    font-size: 14px;
+    font-family:'Grotesk';
+}
+
+.label-primary { 
+	border-radius: 0;
+	background-color: rgb(0,149,109);
+	vertical-align:2px;
+}
+
+.label-success { 
+	border-radius: 0;
+	background-color: rgb(235,58,70);
+	vertical-align:2px;
+}
+
+.label-danger { 
+	border-radius: 0;
+	background-color:rgb(235,58,70);
+}
+
+.my-textarea { 
+    width: 100%;
+    border: 1px solid rgb(48,48,48);
+    border-radius: 0px;
+}
+
+.my-subheader { 
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:12px;
+    line-height: 30px;
+}
+.my-paragraph {
+    padding-top:20px;
+}
+
+.my-description-in-form { 
+    margin-bottom:10px;
+}
 
 
 
+.my-break { 
+    height: 50px;
+    width:100%;
+	clear:both;
+}
+
+.my-break-20 { 
+    height: 20px;
+    width:100%;
+	clear:both;
+}
+
+.my-break-50 { 
+    height: 50px;
+    width:100%;
+	clear:both;
+}
+
+.my-break-80 { 
+    height: 80px;
+    width:100%;
+	clear:both;
+}
+
+.my-break-300 { 
+    height: 300px;
+    width:100%;
+}
+
+.container { width: 100%; }
+
+.my-banner-header { 
+    font-family: 'GroteskBold';
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 80px;
+    color: white;
+}
+
+/* Drop down menu */
+
+#delivery_range { 
+	border: 1px solid rgb(0,149,109);
+}
+
+.daterangepicker .calendar-date { 
+	border-radius: 0;
+	border: 0;
+}
+
+.daterangepicker .calendar th, .daterangepicker .calendar td { 
+	color: rgb(58,59,63);
+}
+
+.daterangepicker td.disabled, .daterangepicker td.off { 
+	color: #ddd;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+	background-color: rgb(0,149,109);
+	border-color: rgb(0,149,109);
+	border-radius: 0;
+	color: white;
+}
+
+.table-condensed { 
+	background-color: white;
+}
+
+.table-condensed tr.my-first-row { 
+	color: rgb(58,59,63);
+	background-color: rgb(0,149,109);
+}
+
+.next th , .next.available,
+.prev th , .prev.available{
+	background-color: rgb(0,149,109);
+	border-radius: 0;
+}
+
+.datetimepicker-dropdown-bottom-right:after, .datetimepicker-dropdown-bottom-right:before { 
+	display:none;
+}
+
+.datetimepicker table tr td span.active, .datetimepicker table tr td span.active:hover, .datetimepicker table tr td span.active.disabled, .datetimepicker table tr td span.active.disabled:hover { 
+	color: white;
+	border:0;
+	border-radius:0;
+	border: 1px solid rgb(0,149,109);
+	background-color: rgb(0,149,109);
+	background-image: none;
+	
+}
+
+.datetimepicker table *, .datetimepicker table *:hover { 
+	color: rgb(58,59,63);
+	border-radius: 0;
+}
+
+.datetimepicker table tr td span.active:active, .datetimepicker table tr td span.active:hover:active, .datetimepicker table tr td span.active.disabled:active, .datetimepicker table tr td span.active.disabled:hover:active, .datetimepicker table tr td span.active.active, .datetimepicker table tr td span.active:hover.active, .datetimepicker table tr td span.active.disabled.active, .datetimepicker table tr td span.active.disabled:hover.active { 
+	background-color: rgb(0,149,109);
+}
+
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, .datetimepicker table tr td.active.disabled:active, .datetimepicker table tr td.active.disabled:hover:active, .datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, .datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled:hover.active { 
+	background-image: none;
+	background-color: rgb(0,149,109);
+	border-radius:0;
+}
+
+.datetimepicker thead tr th.next , .datetimepicker thead tr th.prev{ 
+	background-color: rgb(0,149,109);
+	color: white;
+}
+
+.datetimepicker thead tr th.next i , .datetimepicker thead tr th.prev i{ 
+	color: white;
+}
+
+/* Popover */
+
+.popover { 
+	border-radius : 0px;
+	border: 0;
+}
+
+.popover-title { 
+	border:0;
+	border-radius: 0;
+	background-color: rgb(0,149,109);
+	color: white;
+	font-family: 'GroteskBold';
+}
+
+.dropdown-menu { 
+	border: 1px solid rgb(0,149,109);
+	border-radius: 0;
+	background-color: rgb(0,149,109);
+	margin-left: 101px;
+	margin-top:0;
+}
+
+.daterangepicker.opensleft:after, .daterangepicker.opensleft:before,
+.daterangepicker.opensright:after, .daterangepicker.opensright:before
+{
+	display:none;
+}
+
+.my-button-save-popup, .my-button-save-popup:hover { 
+	width: 100%;
+	border: 0;
+	background-color: rgb(235,58,70);
+	color: white;
+	border-radius: 0;
+	background-image: none;
+
+}
+
+.daterangepicker .ranges .input-mini { 
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 0;
+}
+.daterangepicker .ranges label { 
+	color: white;
+	text-shadow: none;
+}
+.daterangepicker .ranges li { 
+
+	border-radius: 0;
+	border: 1px solid white;
+	background: none;
+	color:white;
+}
+
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+
+	border-radius: 0;
+	border: 1px solid white;
+	background-color: white;
+	color: rgb(0,149,109);
+}
+
+/* Calendar */
+
+.delivery_calendar th { 
+	background-image: none;
+	border-image: none;
+	border: 1px solid rgb(0,149,109);
+	color: white;
+}
+
+.bg_success, .bg_success th { 
+	background-color: rgb(0,149,109);
+	border: 0;
+}
+
+.bg_line { 
+	color: rgb(58,59,63);
+}
+
+.muted { 
+	color: rgb(230,230,230);
+}
+.free { 
+	color: rgb(58,59,63);
+}
+
+.my-diet-header { 
+	width:100%;
+	font-family: 'GroteskBold';
+	font-size: 25px;
+	padding-left: 30px;
+	line-height: 40px;
+	color: white;
+	margin-top:4px;
+	cursor: pointer;
+	user-select:none;
+}
+
+.my-diet-body { 
+	width:100%;
+	font-family: 'Grotesk';
+	font-size: 18px;
+	padding-left: 30px;
+	line-height: 20px;
+}
+
+.my-diet-glyph , .my-diet-glyph a{
+	color: white;
+	margin-right: 10px;
+	float:right;
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+
+.my-diet-paragraph { 
+	max-width: 600px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Orders */
+
+.my-sex-button { 
+	float:none;
+	border: 1px solid rgb(0,149,109);
+	border-radius: 0px;
+	color: rgb(58,59,63);
+	box-sizing: border-box;
+	cursor: pointer;
+	display:table-cell;
+	padding-bottom: 6px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 6px;
+	position: relative;
+	text-align:center;
+	vertical-align: middle;
+	white-space: nowrap;
+	width:1%;
+	font-family: 'GroteskBold';
+	font-size: 25px;
+}
+
+.my-sex-button input[type="radio"] { 
+	display:none;
+}
+
+.my-sex-button:hover { 
+	color: white;
+	background-color: rgb(0,149,109);
+}
+
+.my-sex-button.active { 
+	background-color: rgb(235,58,70);
+	color: white;
+	border: 1px solid rgb(235,58,70);
+}
+
+.my-sex-button-small-font { 
+	font-size: 16px;
+}
+.my-offer-list {
+	margin:0;
+	padding:0;
+}
+
+.my-offer-list li{ 
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+.my-hover-green, .my-hover-green:hover { 
+	color: rgb(0,149,109);
+}
+
+.my-hover-orange, .my-hover-orange:hover { 
+	color: rgb(245,155,0);
+}
+
+.my-hover-pink, .my-hover-pink:hover { 
+	color: rgb(215,0,109);
+}
+
+.my-hover-purple, .my-hover-purple:hover  { 
+	color: rgb(133,50,117);
+}
+
+.my-hover-blue, .my-hover-blue:hover { 
+	color: rgb(48,26,69);
+}
+
+.my-diet-green { 
+	background-color: rgb(0,149,109);
+}
+
+.my-diet-orange { 
+	background-color: rgb(245,155,0);
+}
+
+.my-diet-pink { 
+	background-color: rgb(215,0,109);
+}
+
+.my-diet-purple { 
+	background-color: rgb(133,50,117);
+}
+
+.my-diet-blue { 
+	background-color: rgb(48,26,69);
+}
+
+.my-diet-black { 
+	background-color: black;
+}
+
+.my-heading { 
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'GroteskBold';
+    padding-left: 30px;
+}
+
+.my-col-with-heading { 
+    padding-top:20px;
+}
 
 
+/* Fitlab */
+
+.my-fitlab-container { 
+	padding-bottom: 40px;
+	
+}
+
+.my-fitlab-button-container  {
+	float:left;
+	width: 200px;
+
+}
+
+.my-fitlab-table { 
+	float:left;
+	color:white;
+	width: 50%;
+	background: rgba(255,255,255,0.2);
+	padding:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.my-fitlab-button{ 
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-size: 18px;
+	font-family: 'GroteskBold';
+	border: 1px solid white;
+	border-radius: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	user-select:none;
+	
+}
+
+.my-fitlab-button:hover  { 
+	background-color: white;
+}
+
+/* Contact */
+
+.my-row-contact { 
+    margin-top: 40px;
+
+}
 
 
+.my-button-send { 
+    font-size: 26px;
+    font-weight: bold;
+    width:160px;
+    
+}
 
+/* About us */
 
+.my-pic-container { 
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 
+.my-pic-a { 
+    background-color: rgb(209,209,209);
+    height:400px;
+}
 
+.my-pic-b { 
+    background-color: rgb(224,224,224);
+    height:400px;
+}
 
+.my-pic-a-small {
+	background-color: rgb(209,209,209);
+	height: 300px;
+}
 
+.my-pic-b-small { 
+    background-color: rgb(224,224,224);
+    height:300px;
+}
+/* Menu buttons */
 
+.my-glyph-size
+{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    padding:-10px;
+}
 
+.my-glyph-size-big
+{
+    font-size: 1.0em;
+    line-height: 1.4em;
+ 
+}
 
+.my-button
+{
+    border: 1px solid black;
+    color: rgb(48,48,48);
+    background-color:rgb(255,255,255);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: 6px;
+
+}
+
+.my-button:hover{ 
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(0,149,109);
+}
+
+.my-button:hover * { 
+    color: white;
+}
+
+.my-button-buy {
+	padding-top:-10px;
+	font-size: 20px;
+	font-family: 'GroteskBold';
+}
+ 
+.my-facebook-icon
+{
+    color: white;
+    border-radius: 50%;
+	width: 24px;
+	height: 24px; 
+    background-color: rgb(48,48,48);
+    border:0px;
+    margin-right:20px;
+    padding-top:3px;
+    color: white;
+    position:relative; 
+    top:4px;
+    font-size: 14px;
+}
+
+.my-facebook-icon > i { 
+    color : white;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(48,48,48);
+    font-family:'GroteskBold';
+}
+
+#menu li.o_nas > a:hover {
+    color: rgb(0,149,109);
+}
+#menu li.fitlab > a:hover {
+    color: rgb(245,155,0);
+}
+#menu li.zamowienia > a:hover {
+    color: rgb(215,0,109);
+}
+#menu li.kontakt > a:hover {
+    color: rgb(133,50,117);
+}
+
+.navbar .nav > li > a:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+#menu { 
+    font-size: 50px;
+    font-family: 'GroteskBold';
+    
+}
+
+#menu>li {
+    display:inline-block;
+    float:none;
+    margin-left: 30px;
+}
+
+#footer{ 
+
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    background-color: rgb(48,48,48);
+    height: 220px;
+    margin-top: 30px;;
+}
+#footer ul { 
+    list-style-type: none;
+    padding:0;
+}
+#footer *{ 
+    color: white;
+    text-decoration: none;
+}
+
+.my-footer-button { 
+    width: 110px;
+    border: 1px solid white;
+    color:white;
+    background-color: rgba(0,0,0,0);
+    margin-top: 8px;    
+}
+
+.my-footer-button:hover {
+    color: white;
+}
+.my-footer-button>a:hover {
+    color: white;
+}
+
+.footer_heading {
+
+    font-weight: bold;
+}
+
+.my-footer-small { 
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.my-footer-logo { 
+
+    width: 140px;
+}
+
+.my-copyright{
+
+}
+.divider { 
+    margin-top:12px;
+    margin-bottom:12px;
+    width:80px; 
+    height:1px; 
+    border-bottom:1px solid white;
+}
+
+.my-col-a { 
+    float: left;
+    width: 30%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.my-col-b { 
+    float: left;
+    width: 70%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.popover-content { 
+	font-size: 12px;
+}
 
