@@ -22,7 +22,7 @@ class User extends Admin {
 			$name = explode(' ', $this->data['users']->name_surname);
 			$title = 'F4U - kontakt z administratorem!';
 			$text = '<h2 style="margin-top: 0">Kontaktujemy się z Tobą ponieważ...</h2>';
-			$message = $this->input->post('text') . "<p style='background: #f2f2f2;padding: 10px'>Napisał <strong>".$this->user->name_surname."</strong>, jego email to <strong>" . $this->user->email . "</strong>.</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = $this->input->post('text') . "<p style='background: #f2f2f2;padding: 10px'>Napisał <strong>".$this->user->name_surname."</strong>, jego email to <strong>" . $this->user->email . "</strong>.</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->input->post('email'), 
 										$title, 

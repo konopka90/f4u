@@ -10,14 +10,11 @@
     
             <div class="clearfix">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default"> <i class="glyphicon glyphicon-user"></i> </button>
-                    <button type="button" class="btn btn-default">Zalogowany jako </button>
-                    <button type="button" class="btn btn-primary "><?=$user->name_surname?></button>
-                    <button type="button" class="btn btn-default  dropdown-toggle" data-toggle="dropdown">
+                    <button type="button" class="btn btn-default my-button  dropdown-toggle" data-toggle="dropdown">Zalogowany jako <?=$user->name_surname?>
                         <span class="caret"></span>
                         <span class="sr-only">Menu</span>
                     </button>
-                    <ul class="dropdown-menu text-left pull-right" role="menu">
+                    <ul class="dropdown-menu text-left pull-right my-dropdown-menu" role="menu">
                         <li><a href="<?=base_url()?>page"><i class="glyphicon glyphicon-home"></i> &nbsp; Strona głowna </a></li>
                         <li><a href="<?=base_url()?>consultation"><i class="glyphicon glyphicon-comment"></i> &nbsp; Konsultacje </a></li>
                         <? if($user->access != 4) { ?>
@@ -75,7 +72,7 @@
             <?php */?>
 
 			<? if($user->access != 4) { ?>
-            	<div class="margin_t_10 margin_b_15 muted">
+            	<div class="margin_t_10 margin_b_15 ">
 					<? if($closest_delivery) { ?>
                         <i class="glyphicon glyphicon-info-sign"></i>&nbsp; Najbliższa dostawa <a href="<?=base_url()?>cp/delivery"><strong><?=strftime("%e %B %Y, %A", strtotime($closest_delivery->date))?></strong></a>
                     <? } else { ?>

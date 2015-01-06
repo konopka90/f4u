@@ -35,7 +35,7 @@
 
                             <div class="text-right margin_t_20">
                                 
-                                <button type="button" class="btn btn-success btn-lg" id="btn_consultation_next">Dalej &rarr;</button>
+                                <button type="button" class="btn btn-lg my-button" id="btn_consultation_next">Dalej &rarr;</button>
                                 
                             </div>
                             

@@ -44,9 +44,10 @@
         <link rel="stylesheet" href="<?=base_url()?>js/bootstrap-dialog-master/css/bootstrap-dialog.css" />
         
         <link rel="stylesheet" href="<?=base_url()?>css/main.min.css?v=<?=time()?>">
+        <link rel="stylesheet" href="<?=base_url()?>css/main.css?v=<?=time()?>">
+        <link rel="stylesheet" href="<?=base_url()?>css/user_panel.css?v=<?=time()?>">
  
         <script src="<?=base_url()?>js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        
     </head>
     <body> 
         <!--[if lt IE 8]>
@@ -124,7 +125,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center padding_t_50 padding_b_50">
 
-						© <?=date("Y")?> Copyright by Fit4You. All rights reserved.
+						© <?=date("Y")?> Copyright by FitLab. All rights reserved.
  
                     </div>
                 </div>
@@ -135,7 +136,9 @@
         <script src="<?=base_url()?>js/vendor/jquery-1.10.1.min.js"></script>
         <script src="http://codeorigin.jquery.com/ui/1.9.1/jquery-ui.min.js"></script>
         
-		<script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=<?=$this->session->userdata('lang')?>"></script>
+        <?php /*
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=<?=$this->session->userdata('lang') ?>"></script>
+        */?>
 
         <script src="<?=base_url()?>js/vendor/bootstrap.min.js"></script>
         

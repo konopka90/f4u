@@ -4,16 +4,19 @@
    Author's custom styles
    ========================================================================== */
 @font-face {
-    font-family: 'GroteskBold'; /*a name to be used later*/
-    src:url('../fonts/NeuzeitGroteskTOT-Bol.eot'),
-        url('../fonts/NeuzeitGroteskTOT-Bol.otf'); /*URL to font*/
+    font-family: 'GroteskBold';
+    src :url('../fonts/NeuzeitGroteskTOT-Bol.otf');
+    src :url('../fonts/NeuzeitGroteskTOT-Bol.woff') format("woff"),
+         url('../fonts/NeuzeitGroteskTOT-Bol.svg') format("svg");
+    
          
 }
 
 @font-face {
     font-family: 'Grotesk'; /*a name to be used later*/
     src: url('../fonts/NeuzeitGroteskTOT-Reg.eot?#iefix') format('embedded-opentype') ,
-         url('../fonts/NeuzeitGroteskTOT-Reg.otf'); /*URL to font*/
+         url('../fonts/NeuzeitGroteskTOT-Reg.woff') format("woff"), 
+         url('../fonts/NeuzeitGroteskTOT-Reg.otf');
 }
 
 .grotesk-bold { 
@@ -47,7 +50,14 @@ input[type='text'], input[type='email'], input[type='password']
     border: 1px solid rgb(48,48,48);
     border-radius: 0px;
 }
-h4 { font-family: 'GroteskBold'; }
+h2, h3, h4 { font-family: 'GroteskBold'; }
+label { font-family: 'Grotesk'; }
+
+
+.bordered { 
+    border-radius: 0px;
+    border: 1px solid rgb(48,48,48);
+}
 
 .noselect {
     -webkit-touch-callout: none;
@@ -559,11 +569,33 @@ h4 { font-family: 'GroteskBold'; }
  
 }
 
-.my-button
+.my-dropdown-menu li a i, 
+.my-dropdown-menu li a 
+{ 
+    color: white;
+
+   
+}
+
+.my-dropdown-menu li a:hover,
+.my-dropdown-menu li a:hover > i
+{ 
+    color: rgb(0,149,109);
+    border: none;
+    background-color:white;
+    background-image: none;
+}
+
+li.divider { 
+    width: 100%;
+}
+
+.my-button, .my-button:active
 {
     border: 1px solid black;
     color: rgb(48,48,48);
     background-color:rgb(255,255,255);
+    background-image: none;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -571,10 +603,16 @@ h4 { font-family: 'GroteskBold'; }
 
 }
 
-.my-button:hover{ 
+.my-button:hover, .open .dropdown-toggle.btn-default{ 
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(0,149,109);
     background-color: rgb(0,149,109);
+}
+
+.my-button:hover > span,
+.my-button:focus > span{ 
+    border-bottom-color: white;
+    border-top-color: white;
 }
 
 .my-button:hover * { 

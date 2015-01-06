@@ -6,6 +6,9 @@ class User extends Root {
 	
 	public function login($redirect = FALSE) {
 		
+        if($this->user->access > 0) {
+            redirect(base_url());
+        }
 		
 		if($this->input->post()) {
 			
@@ -230,7 +233,7 @@ class User extends Root {
 			
 			$title = 'F4U - resetowanie hasła';
 			$text = '<h2 style="margin-top: 0">Resetowanie hasła</h2>';
-			$message = '<p>Otrzymałeś tego emaila ponieważ rozpocząłeś proces resetowania hasła. Kliknij w poniższy kod, aby zresetować hasło (otrzymasz je w drugim emailu) lub przepisz go na stronie <a href="'.base_url().'user/password_remind">resetowania hasła</a>.</p><p><a href="'.base_url().'user/password_remind/'.$code.'">'.$code.'</a></p><p>Jeżeli to nie Ty prosiłeś o zmianę hasła po prostu zignoruj tego emaila.</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>';
+			$message = '<p>Otrzymałeś tego emaila ponieważ rozpocząłeś proces resetowania hasła. Kliknij w poniższy kod, aby zresetować hasło (otrzymasz je w drugim emailu) lub przepisz go na stronie <a href="'.base_url().'user/password_remind">resetowania hasła</a>.</p><p><a href="'.base_url().'user/password_remind/'.$code.'">'.$code.'</a></p><p>Jeżeli to nie Ty prosiłeś o zmianę hasła po prostu zignoruj tego emaila.</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>';
 			
 			$this->common->send_mail(	$this->input->post('email'), 
 										$title, 

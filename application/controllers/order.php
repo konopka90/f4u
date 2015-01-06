@@ -65,7 +65,7 @@ class Order extends Root {
 				$name = explode(' ', $new_user['name_surname']);
 				$title = 'F4U - ' . reset($name) . ', Twoje konto jest aktywne!';
 				$text = '<h2 style="margin-top: 0">Cześć ' . reset($name) . '! Specjalnie dla Ciebie założyliśmy konto w Panelu Klienta!</h2>';
-				$message = "<p>Zaloguj się korzystając z poniższych danych:</p><p>Adres: <a href='".base_url()."cp/login'>".base_url()."cp/login</a><br />Login: ".$new_user['email']." <br />Hasło: ".$new_user_password."</p><p>Możesz tam m.in. sprawdzać i modyfikować swoje pakiety, zarządzać płatnościami i fakturowaniem. Mamy tez kilka niespodzianek, ale musisz je sprawdzić sam!</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+				$message = "<p>Zaloguj się korzystając z poniższych danych:</p><p>Adres: <a href='".base_url()."cp/login'>".base_url()."cp/login</a><br />Login: ".$new_user['email']." <br />Hasło: ".$new_user_password."</p><p>Możesz tam m.in. sprawdzać i modyfikować swoje pakiety, zarządzać płatnościami i fakturowaniem. Mamy tez kilka niespodzianek, ale musisz je sprawdzić sam!</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 				
 				$this->common->send_mail(	$new_user['email'], 
 											$title, 
@@ -312,7 +312,7 @@ class Order extends Root {
 			$title = 'F4U - ' . reset($name) . ', złożyłeś zamówienie';
 			$text = '<h2 style="margin-top: 0">Zamówienie zostało złożone!</h2>';
 			if($consultation == 'consultation') {
-				$message = "<p>Twoje zamówienie na kwotę ".$order_price." zostało pomyślnie złożone! Zaloguj się do <a href='".base_url()."cp'>Panelu Klienta</a>, aby uzyskać więcej informacji.</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+				$message = "<p>Twoje zamówienie na kwotę ".$order_price." zostało pomyślnie złożone! Zaloguj się do <a href='".base_url()."cp'>Panelu Klienta</a>, aby uzyskać więcej informacji.</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			} else {
 				$message = "<p>Twoje zamówienie na kwotę ".$order_price." zł (słownie: ".say_number($order_price).") zostało pomyślnie złożone!</p><p>Zamówiłeś pakiet ".$user_packets['payed_days'].(($user_packets['free_days'])?' + '.$user_packets['free_days'].' GRATIS ':'')." dostaw po ".$user_packets['meals']." posiłków dziennie. Pierwsza dostawa będzie miała miejsce ".date("Y-m-d", strtotime($first_delivery[0])).", a ostatnia ".date("Y-m-d", strtotime(end($first_delivery))).".</p>Zaloguj się do <a href='".base_url()."cp'>Panelu Klienta</a>, aby uzyskać więcej informacji. Możesz tam pobrać fakturę za zamówienie, opłacić je - jeśli jeszcze tego nie zrobiłeś i zarządzać swoimi dostawami.</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";	
 			}
@@ -330,7 +330,7 @@ class Order extends Root {
 			$name = explode(' ', $this->input->post('name_surname'));
 			$title = 'F4U - ' . reset($name) . ' złożył zamówienie';
 			$text = '<h2 style="margin-top: 0">' . reset($name) . ' złożył zamówienie</h2>';
-			$message = "<p>Przejdź do <a href='".base_url()."admin'>Panelu Administratora</a> i sprawdź szczegóły.</p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p>Przejdź do <a href='".base_url()."admin'>Panelu Administratora</a> i sprawdź szczegóły.</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->data['config']->contact_email, 
 										$title, 

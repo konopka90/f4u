@@ -637,7 +637,7 @@
                     <hr />
                     
                     <div class="form-group clearfix">
-                        <label class="">Skąd dowiedziałes się o fit4you?</label>
+                        <label class="">Skąd dowiedziałes się o FitLab?</label>
                         <div class="">
                             <select id="how_about_f4u" class="form-control input-sm">
                                 <option value=""> -- wybierz -- </option>

@@ -5,7 +5,7 @@
 				<div class="white grotesk-bold" style="float:left;"><?=$v['name']?></div>
 				
 			<? if($name == 'kaloryczna') { ?>
-				<div style="float:left; margin-left: 200px">
+				<div style="float:left; display:none; margin-left: 200px">
 					<select class="form-control input-xs pull-right" id="diet_kaloryczna_calories" >
 							<option value="1000"> 1000 kcal </option>
 							<option value="1200"> 1200 kcal </option>

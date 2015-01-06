@@ -30,9 +30,9 @@ class Consultation extends Admin {
 		if($this->input->post('send_email') == 1) {
 
 			$name = explode(' ', $this->data['consultation']->name_surname);
-			$title = 'F4U - kontakt w sprawie konsultacji!';
+			$title = 'FitLab - kontakt w sprawie konsultacji!';
 			$text = '<h2 style="margin-top: 0">Kontaktujemy się z Tobą w sprawie konsultacji, które zamówiłeś</h2>';
-			$message = $this->input->post('text') . "<p style='background: #f2f2f2;padding: 10px'>Napisał <strong>".$this->user->name_surname."</strong>, jego email to <strong>" . $this->user->email . "</strong>.</p><p>Pozdrawiamy!<br />Fit4you<br/>tel. 515 046 567</p>";
+			$message = $this->input->post('text') . "<p style='background: #f2f2f2;padding: 10px'>Napisał <strong>".$this->user->name_surname."</strong>, jego email to <strong>" . $this->user->email . "</strong>.</p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->input->post('email'), 
 										$title, 

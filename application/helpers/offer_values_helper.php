@@ -5,8 +5,8 @@ function offer_values($key = FALSE) {
 	
 	$array = array(	
 	
-		"individual" => array(
-			'name' => 'Individual',
+		"wegetarianska" => array(
+			'name' => 'Dieta Fit',
 			'male' => array(
 				'5' => array(
 					'price' => 75.00,
@@ -38,7 +38,7 @@ function offer_values($key = FALSE) {
 		), 
 		
 		"shape" => array(
-			'name' => 'Shape',
+			'name' => 'Dieta Fit Light',
 			'male' => array(
 				'5' => array(
 					'price' => 75.00,
@@ -70,7 +70,7 @@ function offer_values($key = FALSE) {
 		),
 		
 		"kaloryczna" => array(
-			'name' => 'Kaloryczna',
+			'name' => 'Dieta Wegetariańska',
 			'male' => array(
 				'5' => array(
 					'1000' => array(
@@ -121,7 +121,7 @@ function offer_values($key = FALSE) {
 			),
 		), 
 		"bezglutenowa" => array(
-			'name' => 'Bezglutenowa',
+			'name' => 'Dieta Detox',
 			'male' => array(
 				'5' => array(
 					'price' => 75.00,
@@ -151,8 +151,8 @@ function offer_values($key = FALSE) {
 				)
 			),
 		),
-		"wegetarianska" => array(
-			'name' => 'Wegetariańska',
+		"individual" => array(
+			'name' => 'Dieta Indywidualna Premium',
 			'male' => array(
 				'5' => array(
 					'price' => 75.00,
@@ -182,6 +182,7 @@ function offer_values($key = FALSE) {
 				)
 			),
 		),
+        
 	);
 											
 	return ($key !== FALSE ) ? $array[$key] : $array;

@@ -7,7 +7,7 @@
 
 	<div class="col-md-6">
     
-		<h2 class="margin_0 margin_b_10 border_b_3 padding_b_10"><i class="glyphicon glyphicon-log-in muted"></i>&nbsp; Przypomnij hasło</h2>
+		<h2 class="margin_0 margin_b_10 border_b_3 padding_b_10">Przypomnij hasło</h2>
         
         <?=$this->load->view('_elements/message', array('message' => $this->session->flashdata('message'), 'message_status' => $message_status), true)?>  
 
@@ -20,8 +20,7 @@
                 </div>
                 <div class="col-xs-6">
                     <div class="btn-group">
-                        <button type="submit" class="btn btn-primary" name="send_code" value="1"><i class="glyphicon glyphicon-user"></i></button>
-                        <button type="submit" class="btn btn-primary" name="send_code" value="1"> Wyślij kod do zmiany hasła </button>
+                        <button type="submit" class="btn btn-primary my-button" name="send_code" value="1"> Wyślij kod do zmiany hasła </button>
                     </div>
                 </div>
             </div>
@@ -41,8 +40,7 @@
 
                 <div class="col-xs-6">
                     <div class="btn-group">
-                        <button type="submit" class="btn btn-success" name="reset_password" value="1"><i class="glyphicon glyphicon-user"></i></button>
-                        <button type="submit" class="btn btn-success" name="reset_password" value="1"> Zresetuj moje hasło </button>
+                        <button type="submit" class="btn btn-success my-button" name="reset_password" value="1"> Zresetuj moje hasło </button>
                     </div>
                 </div> 
             </div>

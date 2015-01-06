@@ -129,7 +129,7 @@ class Delivery extends Cp {
 			//powiadomienie email
 			$title = 'F4U - dostawa z dnia ' . $this->data['delivery']->date . ' została przeniesiona';
 			$text = '<h2 style="margin-top: 0">Dostawa z dnia ' . $this->data['delivery']->date . ' została przeniesiona na dzień ' . $this->input->post('new_date') . '!</h2>';
-			$message = "<p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->user->email, 
 										$title, 
@@ -143,7 +143,7 @@ class Delivery extends Cp {
 			//powiadomienie konrada i kucharza				
 			$title = 'F4U - ' . $this->user->name_surname . ' zmienił termin dostawy';
 			$text = '<h2 style="margin-top: 0">Dostawa dla użytkownika ' . $this->user->name_surname . ' z dnia ' . $this->data['delivery']->date . ' została przeniesiona na dzień ' . $this->input->post('new_date') . '!</h2>';
-			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	'konrad@fit4you.pl', 
 										$title, 
@@ -200,7 +200,7 @@ class Delivery extends Cp {
 			//powiadomienie email
 			$title = 'F4U - dostawa z dnia ' . $this->data['delivery']->date . ' została aktywowana';
 			$text = '<h2 style="margin-top: 0">Dostawa w dniu ' . $this->data['delivery']->date . ' znów jest aktywna!</h2>';
-			$message = "<p>Jednocześnie informujemy, że dostawa w dniu/dniach ".implode(", ", $further_deliveries).", <u>na które wcześniej przenosiłeś(łaś) tą dostawę</u> została anulowana.</p><p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p>Jednocześnie informujemy, że dostawa w dniu/dniach ".implode(", ", $further_deliveries).", <u>na które wcześniej przenosiłeś(łaś) tą dostawę</u> została anulowana.</p><p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->user->email, 
 										$title, 
@@ -213,7 +213,7 @@ class Delivery extends Cp {
 			//powiadomienie konrada						
 			$title = 'F4U - ' . $this->user->name_surname . ' zmienił termin dostawy';
 			$text = '<h2 style="margin-top: 0">Dostawa dla użytkownika ' . $this->user->name_surname . ' z dnia ' . end($further_deliveries) . ' została przeniesiona na dzień ' . $this->data['delivery']->date . '!</h2>';
-			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	'konrad@fit4you.pl', 
 										$title, 
@@ -260,7 +260,7 @@ class Delivery extends Cp {
 			$d = $this->delivery->get_delivery($this->input->post('moved_from'));
 			$title = 'F4U - dostawa z dnia ' . $this->data['delivery']->date . ' została przeniesiona';
 			$text = '<h2 style="margin-top: 0">Dostawa z dnia ' . $this->data['delivery']->date . ' została przeniesiona z powrotem na dzień ' . $d->date . '!</h2>';
-			$message = "<p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p><a href='".base_url()."cp/delivery'>Zobacz swój kalendarz dostaw</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->user->email, 
 										$title, 
@@ -273,7 +273,7 @@ class Delivery extends Cp {
 			//powiadomienie konrada						
 			$title = 'F4U - ' . $this->user->name_surname . ' zmienił termin dostawy';
 			$text = '<h2 style="margin-top: 0">Dostawa dla użytkownika ' . $this->user->name_surname . ' z dnia ' . $this->data['delivery']->date . ' została przeniesiona na dzień ' . $d->date . '!</h2>';
-			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = "<p><a href='".base_url()."admin/user/details/".$this->user->user_id."'>Zobacz kalendarz dostaw użytkownika</a></p><p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	'konrad@fit4you.pl', 
 										$title, 

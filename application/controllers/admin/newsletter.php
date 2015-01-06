@@ -19,7 +19,7 @@ class Newsletter extends Admin {
 			
 			$title = 'F4U Newsletter - ' . $this->input->post('title');
 			$text = '<h2 style="margin-top: 0">'.$this->input->post('title').'</h2>';
-			$message = $this->input->post('text') . "<p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = $this->input->post('text') . "<p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			$this->common->send_mail(	$this->user->email, 
 										$title, 
@@ -47,7 +47,7 @@ class Newsletter extends Admin {
 			
 			$title = 'F4U Newsletter - ' . $this->input->post('title');
 			$text = '<h2 style="margin-top: 0">'.$this->input->post('title').'</h2>';
-			$message = $this->input->post('text') . "<p>Pozdrawiamy!<br />Fit4You<br/>tel. 515 046 567</p>";
+			$message = $this->input->post('text') . "<p>Pozdrawiamy!<br />FitLab<br/>tel. 506 608 680</p>";
 			
 			//email
 			$emails = array();

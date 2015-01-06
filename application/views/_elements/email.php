@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0">    <!-- So that mobile webkit will display zoomed in -->
     <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
 
-    <title>Fit4You</title>
+    <title>FitLab</title>
     <style type="text/css">
 
 
@@ -110,7 +110,7 @@
                         <tr>
                             <td align="right" valign="middle" height="90" style="font-size:13px; line-height: 20px; font-family: Arial, sans-serif;">
                                     
-                            	<a href="http://fit4you.pl" style="text-decoration: none; color: #2b2b33"><h5>www.fit4you.pl</h5></a>
+                            	<a href="http://fitlab.pl" style="text-decoration: none; color: #2b2b33"><h5>www.fitlab.pl</h5></a>
                                 
                             </td>
                         </tr>
