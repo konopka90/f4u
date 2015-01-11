@@ -164,6 +164,7 @@ $(document).ready(function() {
 			
 		$('#div_range_mode .dr_').daterangepicker(daterangesettings, function(start, end) {
 				
+               
 				var difference = new Date(end.format('YYYY-MM-DD')) - new Date(start.format('YYYY-MM-DD'));
 				var days = parseInt(	(difference/(3600*1000*24))	)+1	;
 				

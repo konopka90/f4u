@@ -761,7 +761,6 @@ $(document).ready(function() {
 		},
 		function(start, end) {
 			
-			console.log('chuj');
 			var meals_per_day = $('#product option:selected').data('price_per_day');
 			var difference = new Date(end.format('YYYY-MM-DD')) - new Date(start.format('YYYY-MM-DD'));
 			var days = parseInt(	(difference/(3600*1000*24))	)+1	;

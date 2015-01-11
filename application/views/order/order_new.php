@@ -8,44 +8,20 @@
 				moluptae nihil molorem que precteniam rentur? Qui consedi onestrum que 
 				velitemporia venis a nitat de net porrum fugiandite sunto qui quibusam cu
 			</p>
-			<div class="my-diet-header my-diet-pink my-diet-header-clickable noselect">Razem taniej  <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
+			<div class="my-diet-header my-diet-pink my-diet-header-clickable noselect">PROMO 1: SPRÓBUJ I PRZEKONAJ SIĘ  <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
 			<div class="my-diet-body my-diet-pink hidden">
-				<p class="my-diet-paragraph">Body tekst tracking +20 18 px/20 px.<br/>
-											Zdrowe lekkie menu, oparte na produktach pełnowartościowych wysokiej 
-											jakości, bez konserwantów, cukru, o niskim IG oraz podwyższonej zawartości 
-											błonnika.
-				</p>
-				<p class="my-diet-paragraph">Dieta składająca się z 3 zbilansowanych posiłków oraz 2 przekąsek  
-											dla kobiet i mężczyzn mnie aktywnych , którzy chcą osiągnąć  
-											i utrzymać smukłą sylwetkę oraz dobre samopoczucie 
-				</p>
-											
+				<p class="my-diet-paragraph">Przy pierwszym zamówieniu na 3 dni możliwość skorzystania ze specjalnej oferty zniżkowej w cenie X PLN /dzień
+				</p>											
 			</div>
-			<div class="my-diet-header my-diet-purple my-diet-header-clickable noselect">Razem taniej  <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
+			<div class="my-diet-header my-diet-purple my-diet-header-clickable noselect">PROMO 2: DŁUŻEJ Z KORZYŚCIĄ <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
 			<div class="my-diet-body my-diet-purple hidden">
-				<p class="my-diet-paragraph">Body tekst tracking +20 18 px/20 px.<br/>
-											Zdrowe lekkie menu, oparte na produktach pełnowartościowych wysokiej 
-											jakości, bez konserwantów, cukru, o niskim IG oraz podwyższonej zawartości 
-											błonnika.
-				</p>
-				<p class="my-diet-paragraph">Dieta składająca się z 3 zbilansowanych posiłków oraz 2 przekąsek  
-											dla kobiet i mężczyzn mnie aktywnych , którzy chcą osiągnąć  
-											i utrzymać smukłą sylwetkę oraz dobre samopoczucie 
-				</p>
-											
+				<p class="my-diet-paragraph">Przy złożeniu zamówienia na okres 20 dni otrzymasz od Nas 1 dzień dostaw w prezencie oraz przy zamówieniu na okres 30 dni otrzymasz 2 dni w prezencie.
+				</p>											
 			</div>
-			<div class="my-diet-header my-diet-blue my-diet-header-clickable noselect">Razem taniej  <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
+			<div class="my-diet-header my-diet-blue my-diet-header-clickable noselect">PROMO 3: RAZEM TANIEJ  <span class="glyphicon glyphicon-plus my-diet-glyph" aria-hidden="true"></span></div>
 			<div class="my-diet-body my-diet-blue hidden">
-				<p class="my-diet-paragraph">Body tekst tracking +20 18 px/20 px.<br/>
-											Zdrowe lekkie menu, oparte na produktach pełnowartościowych wysokiej 
-											jakości, bez konserwantów, cukru, o niskim IG oraz podwyższonej zawartości 
-											błonnika.
-				</p>
-				<p class="my-diet-paragraph">Dieta składająca się z 3 zbilansowanych posiłków oraz 2 przekąsek  
-											dla kobiet i mężczyzn mnie aktywnych , którzy chcą osiągnąć  
-											i utrzymać smukłą sylwetkę oraz dobre samopoczucie 
-				</p>
-											
+				<p class="my-diet-paragraph">Zamawiając dwa zestawy pod jeden adres, w tym samym czasie otrzymujesz wraz z drugą osobą zniżkę w wysokości 10%. Zamówienie diety musi być złożone w tych samych terminach. W przypadku rozłączenia zamówienia, cena wzrasta do cen zamówień indywidualnych.
+				</p>		
 			</div>
 
 		</div>

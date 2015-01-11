@@ -5,14 +5,35 @@
     <div class="modal fade order_modals" id="order_modal_personal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
+               
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3 class="modal-title">Składasz zamówienie!</h3>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            
+                            <h1 class="modal-title">Składasz <br/>Zamówienie</h1>
+                        </div>
+                        <div class="col-sm-8">
+                            <table class="modal-procedure">
+                                <tr>
+                                    <td><div class="circle-green">1</div></td>
+                                    <td style="width: 110px;" class="modal-procedure-td">Podaj dane do faktury</td>
+                                    <td><div class="circle-green-with-white" >2</div></td>
+                                    <td style="width: 150px;"  class="modal-procedure-td">Potwierdz warunki <br/>i adres dostawy</td>
+                                    <td><div class="circle-black-with-white" >3</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Wypełnij kwestionariusz</td>
+                                    <td><div class="circle-black-with-white" >4</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Sfinalizuj zamówienie</td>
+                                </tr>
+                            </table>
+                            
+                        </div >
+                        <div class="col-sm-1">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-body">
                 
-                    <img src="<?=base_url()?>img/order_progress_1.jpg" class="img-responsive"/>
-                    
                     <hr />
 
                     <h4>Dane do fakturowania</h4>
@@ -67,13 +88,11 @@
                     
                     
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default" data-dismiss="modal"> <i class="glyphicon glyphicon-remove-circle"></i> </button>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Anuluj</button>
+                        <button type="button" class="btn btn-default my-button-black" data-dismiss="modal">Anuluj</button>
                     </div>
                     
                     <div class="btn-group margin_l_10">
-                        <a data-toggle="modal" href="#order_modal_details" class="btn_order_modal_details btn btn-primary"> Dalej </a>
-                        <a data-toggle="modal" href="#order_modal_details" class="btn_order_modal_details btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-right"></i> </a>
+                        <a data-toggle="modal" href="#order_modal_details" class="btn_order_modal_details btn btn-primary my-button-green"> Dalej </a>
                     </div>
                     
                 </div>
@@ -87,12 +106,33 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3 class="modal-title">Składasz zamówienie!</h3>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            
+                            <h1 class="modal-title">Składasz <br/>Zamówienie</h1>
+                        </div>
+                        <div class="col-sm-8">
+                            <table class="modal-procedure">
+                                <tr>
+                                    <td><div class="circle-green">1</div></td>
+                                    <td style="width: 110px;" class="modal-procedure-td">Podaj dane do faktury</td>
+                                    <td><div class="circle-green" >2</div></td>
+                                    <td style="width: 150px;"  class="modal-procedure-td">Potwierdz warunki <br/>i adres dostawy</td>
+                                    <td><div class="circle-green-with-white" >3</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Wypełnij kwestionariusz</td>
+                                    <td><div class="circle-black-with-white" >4</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Sfinalizuj zamówienie</td>
+                                </tr>
+                            </table>
+                            
+                        </div >
+                        <div class="col-sm-1">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-body">
                 
-                    <img src="<?=base_url()?>img/order_progress_2.jpg" class="img-responsive"/>
                 
                     <hr class="margin_b_0"/>
                     
@@ -253,13 +293,11 @@
                 
                 
                 	<div class="pull-left btn-group">
-                    	<a data-toggle="modal" href="#order_modal_personal" class="pull-left btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-left"></i> </a>
-                        <a data-toggle="modal" href="#order_modal_personal" class="pull-left btn btn-primary"> Zmień </a>
+                        <a data-toggle="modal" href="#order_modal_personal" class="pull-left btn btn-primary my-button-black"> Zmień </a>
                     </div>
                     
                     <div class="btn-group">
-                        <a data-toggle="modal" href="#order_modal_interview" class="btn_order_modal_interview btn btn-primary"> Dalej </a>
-                        <a data-toggle="modal" href="#order_modal_interview" class="btn_order_modal_interview btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-right"></i> </a>
+                        <a data-toggle="modal" href="#order_modal_interview" class="btn_order_modal_interview btn btn-primary my-button-green"> Dalej </a>
                     </div>
 
                 </div>
@@ -272,13 +310,33 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3 class="modal-title">Składasz zamówienie!</h3>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            
+                            <h1 class="modal-title">Składasz <br/>Zamówienie</h1>
+                        </div>
+                        <div class="col-sm-8">
+                            <table class="modal-procedure">
+                                <tr>
+                                    <td><div class="circle-green">1</div></td>
+                                    <td style="width: 110px;" class="modal-procedure-td">Podaj dane do faktury</td>
+                                    <td><div class="circle-green" >2</div></td>
+                                    <td style="width: 150px;"  class="modal-procedure-td">Potwierdz warunki <br/>i adres dostawy</td>
+                                    <td><div class="circle-green" >3</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Wypełnij kwestionariusz</td>
+                                    <td><div class="circle-green-with-white" >4</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Sfinalizuj zamówienie</td>
+                                </tr>
+                            </table>
+                            
+                        </div >
+                        <div class="col-sm-1">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-body">
-                
-                    <img src="<?=base_url()?>img/order_progress_3.jpg"  class="img-responsive"/>
-                    
+                                   
                     <hr />
 
                     <h4>Formularz dietetyczny</h4>
@@ -604,13 +662,11 @@
                 <div class="modal-footer">
                     
                 	<div class="pull-left btn-group">
-                    	<a data-toggle="modal" href="#order_modal_details" class="pull-left btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-left"></i> </a>
-                        <a data-toggle="modal" href="#order_modal_details" class="pull-left btn btn-primary"> Zmień </a>
+                        <a data-toggle="modal" href="#order_modal_details" class="pull-left btn btn-primary my-button-black"> Zmień </a>
                     </div>
                     
                     <div class="btn-group">
-                        <a data-toggle="modal" href="#order_modal_payment" class="btn_order_modal_payment btn btn-primary"> Dalej </a>
-                        <a data-toggle="modal" href="#order_modal_payment" class="btn_order_modal_payment btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-right"></i> </a>
+                        <a data-toggle="modal" href="#order_modal_payment" class="btn_order_modal_payment btn btn-primary my-button-green"> Dalej </a>
                     </div>
 
                 </div>
@@ -623,13 +679,35 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h3 class="modal-title">Składasz zamówienie!</h3>
+                <div class="modal-header">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            
+                            <h1 class="modal-title">Składasz <br/>Zamówienie</h1>
+                        </div>
+                        <div class="col-sm-8">
+                            <table class="modal-procedure">
+                                <tr>
+                                    <td><div class="circle-green">1</div></td>
+                                    <td style="width: 110px;" class="modal-procedure-td">Podaj dane do faktury</td>
+                                    <td><div class="circle-green" >2</div></td>
+                                    <td style="width: 150px;"  class="modal-procedure-td">Potwierdz warunki <br/>i adres dostawy</td>
+                                    <td><div class="circle-green" >3</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Wypełnij kwestionariusz</td>
+                                    <td><div class="circle-green" >4</div></td>
+                                    <td style="width: 100px;"  class="modal-procedure-td">Sfinalizuj zamówienie</td>
+                                </tr>
+                            </table>
+                            
+                        </div >
+                        <div class="col-sm-1">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 <div class="modal-body">
-                
-                    <img src="<?=base_url()?>img/order_progress_4.jpg" class="img-responsive" />
-                    
+                                    
                     <hr />
 
                     <h4>Płatność</h4>
@@ -675,8 +753,7 @@ Wypełniając i wysyłając ten formularz wyraża Pan/i zgodę na przetwarzanie 
                 </div>
                 <div class="modal-footer">
                 	<div class="pull-left btn-group">
-                    	<a data-toggle="modal" href="#order_modal_interview" class="pull-left btn btn-primary"> <i class="glyphicon glyphicon-circle-arrow-left"></i> </a>
-                        <a data-toggle="modal" href="#order_modal_interview" class="pull-left btn btn-primary"> Zmień </a>
+                        <a data-toggle="modal" href="#order_modal_interview" class="pull-left btn btn-primary  my-button-black"> Zmień </a>
                     </div>
                     
                     <?php /*?>
@@ -687,8 +764,7 @@ Wypełniając i wysyłając ten formularz wyraża Pan/i zgodę na przetwarzanie 
                     <?php */?>
                     
                     <div class="pull-right btn-group margin_l_10">
-                    	<button type="submit" id="btn_make_order_1" class="btn btn-success btn-md"> <i class="glyphicon glyphicon-shopping-cart"></i> </button>
-                        <button type="submit" id="btn_make_order" class="btn btn-success btn-md"> Zamawiam i płacę </button>
+                        <button type="submit" id="btn_make_order" class="btn btn-success btn-md my-button-green"> Zamawiam i płacę </button>
                     </div>
                 </div>
             </div>
